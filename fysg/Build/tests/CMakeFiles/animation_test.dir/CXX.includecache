@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../Classes/engine/animation/animation.h
+inttypes.h
+-
+
+/Users/flavor/program/mgengine/fysg/Classes/engine/animation/animation.cpp
+stdio.h
+-
+animation.h
+/Users/flavor/program/mgengine/fysg/Classes/engine/animation/animation.h
+
+/Users/flavor/program/mgengine/fysg/Classes/engine/animation/animation.h
+inttypes.h
+-
+
+/Users/flavor/program/mgengine/fysg/tests/engine/animation/animationTest.cpp
+stdio.h
+-
+animation.h
+/Users/flavor/program/mgengine/fysg/tests/engine/animation/animation.h
+gtest/gtest.h
+/Users/flavor/program/mgengine/fysg/tests/engine/animation/gtest/gtest.h
+
